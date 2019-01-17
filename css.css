@@ -1,0 +1,148 @@
+body{
+    font-family: 'Amatic SC', cursive;
+}
+p{
+    font-size: 32px;
+}
+h1{
+    font-size: 140px;
+}
+#grad1 {
+    height: 1200px;
+    background-color: lightseagreen;
+    background-image: linear-gradient(lightseagreen, lightskyblue);
+
+}
+
+#grad2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px 150px;
+    box-shadow: 0px 0px 100px 40px yellow;
+    background-color: orange;
+    background-image: radial-gradient(orange 50%, yellow 95%);
+
+}
+
+#laatikko{
+    background-color: black;
+    height: 350px;
+    width: 150px;
+    border: 8px solid grey;
+    border-radius: 15px 15px;
+}
+
+#red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px 50px;
+    box-shadow: inset 0 0 30px #000000;
+    background-image:
+            radial-gradient(black 20%, transparent 0),
+            radial-gradient(black 20%, transparent 0);
+    background-size: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#red:hover{
+    background-color: darkred;
+}
+#red:active{
+    background-color: black;
+}
+#yel{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px 50px;
+    box-shadow: inset 0 0 30px #000000;
+    background-image:
+            radial-gradient(black 20%, transparent 0),
+            radial-gradient(black 20%, transparent 0);
+    background-size: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#yel:hover{
+    background-color: goldenrod;
+}
+#yel:active{
+    background-color: black;
+}
+#gre{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px 50px;
+    box-shadow: inset 0 0 30px #000000;
+    background-image:
+            radial-gradient(black 20%, transparent 0),
+            radial-gradient(black 20%, transparent 0);
+    background-size: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#gre:hover{
+    background-color: darkgreen;
+}
+#gre:active{
+    background-color: black;
+}
+#varsi{
+    background-color: black;
+    height: 400px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#liikennevalot {
+    width: 150px;
+    position: fixed;
+    left: 65%;
+    top: 20%;
+    z-index: 3;
+}
+
+#maa{
+    background-color: greenyellow;
+    width: 100%;
+    height: 400px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 20%;
+    position: fixed;
+    bottom: 0%;
+    z-index: 2;
+}
+#maa2{
+    background-color: forestgreen;
+    width: 100%;
+    height: 570px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 100%;
+    position: fixed;
+    bottom: 0%;
+    z-index: 1;
+}
+#tiedot{
+    width: 450px;
+    height: 340px;
+    position: fixed;
+    left: 10%;
+    top: 69%;
+    z-index: 4;
+    border: solid red;
+    padding: 15px;
+}
+#otsikko{
+    width: 600px;
+    height: 500px;
+    position: fixed;
+    left: 5%;
+    top: 5%;
+    z-index: 5;
+}
